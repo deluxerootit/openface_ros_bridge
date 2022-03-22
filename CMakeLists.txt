@@ -15,7 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package(Boost 1.5.9 REQUIRED COMPONENTS filesystem system)
-find_package(OpenCV 3 REQUIRED)
+find_package(OpenCV 4 REQUIRED)
 
 find_library(OPENFACE_LD_LIB LandmarkDetector)
 find_library(OPENFACE_FA_LIB FaceAnalyser)
